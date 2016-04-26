@@ -3,19 +3,64 @@
 /***************/
 
 /* Color Palette */
-
+.color-1{
+     background: red;
+}
+.color-2{
+     background: white;
+}
+.color-3{
+    background: blue; 
+}
 
 /* Textures or Patterns*/
-
-
+.pattern-1{
+     background: url(https://s-media-cache-ak0.pinimg.com/736x/56/32/58/563258a875e73877dd743a1d37bebdbf.jpg) no-repeat;
+     background-size: 100%;
+   
+}
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1{
+     border:none;
+}
 
 /* Navigation */
+nav li{
+     list-style: none;
+}
 
+nav a:link{
+     color:blue;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+
+nav a:hover{
+     color:red;
+}
+
+
+button{
+     padding: 1em;
+     background: blue;
+     color: white;
+     border: red solid 5px;
+     border-radius: 10px;
+}
 
 /* Typography */
 
+h1, h2{
+     font-family: "Open Sans";
+     color: green;
+}
+
+p{
+  font-family: "Open Sans";
+     font-size: 10px;
+     line-height: 1.25em;
+     letter-spacing: 2px;   
+}
