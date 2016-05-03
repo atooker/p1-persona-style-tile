@@ -1,26 +1,58 @@
 /***************/
 /* YOUR STYLES */
 /***************/
+/*Persona images at top*/
+*{
+     font-family: 'Raleway', sans-serif;
+     background-color: azure;
+}
 
 /* Color Palette */
 .color-1{
-     background: red;
+     background: teal;
 }
 .color-2{
-     background: white;
+     background: darkred;
 }
 .color-3{
-    background: blue; 
+    background: black; 
 }
+
+.color-4{
+    background: grey; 
+}
+
+.color-5{
+    background: tan; 
+}
+
 
 /* Textures or Patterns*/
 .pattern-1{
-     background: url(https://s-media-cache-ak0.pinimg.com/736x/56/32/58/563258a875e73877dd743a1d37bebdbf.jpg) no-repeat;
+     background: url(http://img01.deviantart.net/ea6a/i/2011/003/0/f/red_bricks_2145856_by_stockproject1-d36cjq7.jpg) ;
      background-size: 100%;
-   
+}
+
+.pattern-2{
+     background: url(https://uxmag.com/sites/default/files/styles/632x307/adaptive-image/public/article-images/ux-patterns-banner2.png?itok=AidPE1MJ) ;
+     background-size: 100%;
+}
+
+.pattern-3{
+     background: url(https://s-media-cache-ak0.pinimg.com/736x/d9/04/00/d90400ded4784b0a2b45ce71a559827b.jpg) ;
+     background-size: 100%;
+}
+
+.pattern-4{
+     background: url(https://s-media-cache-ak0.pinimg.com/736x/09/e6/76/09e6762e59f0dc5c49d55a747ef0d3f0.jpg) ;
+     background-size: 100%;
+}
+
+.pattern-5{
+     background: url(http://ih0.redbubble.net/image.151630732.0653/flat,800x800,075,f-c,0,75,800,331.u2.jpg) ;
+     background-size: 100%;
 }
 /* Imagery */
-
 
 /* Icons */
 .icon-1{
@@ -33,29 +65,25 @@ nav li{
 }
 
 nav a:link{
-     color:blue;
+     color:darkred;
      text-decoration: none;
      text-transform: uppercase;
 }
 
 nav a:hover{
-     color:red;
+     color:teal;
 }
 
 
 button{
-     padding: 1em;
-     background: blue;
-     color: white;
-     border: red solid 5px;
-     border-radius: 10px;
+     color: darkred;
+     
 }
 
 /* Typography */
 
 h1, h2{
-     font-family: "Open Sans";
-     color: green;
+     font-family: 'Raleway', sans-serif;            color: teal;
 }
 
 p{
